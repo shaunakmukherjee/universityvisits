@@ -1,7 +1,5 @@
 Hello and welcome to University Visits!
 
-NOTE : This is the skeleton code. Final integrated code is going to be uploaded soon.
-
 Also, we assume 'pip', Python, Django, etc. are pre-installed, if not repeat the first step.
 
 To run the code, please follow the following steps :
