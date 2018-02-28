@@ -36,6 +36,15 @@ line-height: 25px;
 	width: 1440px;
 	background-repeat: no-repeat;
 }
+.bgparents{
+	background-image: url("images/ic_headerphoto.png");
+position: absolute;
+top: 0px;
+left: 0px;
+height: 484px;
+width: 1440px;
+background-repeat: no-repeat;
+	}
 .parents{
 	position: absolute;
 top: 34px;
@@ -153,5 +162,1066 @@ font-size: 17px;
 color: rgba(91, 121, 187, 1);
 text-align: center;
 letter-spacing: 0.03em;
+
+}
+
+.Text1{
+	position: absolute;
+top: 728px;
+left: 253px;
+height: 33px;
+width: 372px;
+font-family: 'National';
+font-size: 28px;
+font-weight: 500;
+color: rgba(56, 89, 159, 1);
+text-align: left;
+
+}
+.Text2{
+	position: absolute;
+top: 817px;
+left: 253px;
+height: 92px;
+width: 328px;
+font-family: 'National';
+font-size: 16px;
+font-weight: 300;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+
+}
+
+.Text3{
+	position: absolute;
+top: 955px;
+left: 253px;
+height: 115px;
+width: 328px;
+/*Text styles for Haven’t be */
+font-family: 'National';
+font-size: 16px;
+font-weight: 300;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+/*Text styles for no matter */
+font-family: 'National-Medium';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+/*Text styles for the stage  */
+font-family: 'National';
+font-size: 16px;
+font-weight: 300;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+
+}
+
+.schoolpic{
+	position: absolute;
+top: 769px;
+left: 838px;
+height: 74px;
+width: 69px;
+
+}
+
+.moneypic{
+	position: absolute;
+top: 769px;
+left: 1081px;
+height: 76px;
+width: 89px;
+
+}
+
+.plane{
+	position: absolute;
+top: 941px;
+left: 969px;
+height: 74px;
+width: 69px;
+
+}
+
+
+.smalltext1{
+	position: absolute;
+top: 883px;
+left: 796px;
+height: 38px;
+width: 154px;
+font-family: 'National';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+
+
+.smalltext2{
+	position: absolute;
+top: 883px;
+left: 1058px;
+height: 38px;
+width: 136px;
+font-family: 'National';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.02em;
+
+
+}
+
+.smalltext3{
+position: absolute;
+top: 1037px;
+left: 938px;
+height: 38px;
+width: 136px;
+font-family: 'National';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+
+
+
+.newbg{
+	position: absolute;
+top: 1159px;
+left: 0px;
+height: 635px;
+width: 1440px;
+background-image: -webkit-linear-gradient(-180deg, rgba(113, 145, 215, 1) 0%, rgba(56, 89, 159, 1) 100%);
+background-image: -moz-linear-gradient(-180deg, rgba(113, 145, 215, 1) 0%, rgba(56, 89, 159, 1) 100%);
+background-image: -o-linear-gradient(-180deg, rgba(113, 145, 215, 1) 0%, rgba(56, 89, 159, 1) 100%);
+background-image: linear-gradient(-180deg, rgba(113, 145, 215, 1) 0%, rgba(56, 89, 159, 1) 100%);
+-webkit-transform:  rotate(360deg);
+-ms-transform:  rotate(360deg);
+transform:  rotate(360deg);
+
+}
+
+
+.costswhite{
+	position: absolute;
+top: 1192px;
+left: 1px;
+height: 225px;
+width: 180px;
+
+}
+
+.allcostsmain{
+	position: absolute;
+top: 1202px;
+left: 324px;
+height: 481px;
+width: 793px;
+}
+
+.mostvisited{
+	position: absolute;
+top: 1834px;
+left: 1254px;
+height: 234px;
+width: 186px;
+
+}
+.georgia{
+	position: absolute;
+top: 1892px;
+left: 314px;
+height: 353px;
+width: 250px;
+
+}
+
+.geotext{
+	white-space: nowrap;
+	position: absolute;
+top: 2178px;
+left: 326px;
+height: 29px;
+width: 184px;
+font-family: 'San Francisco Text';
+font-size: 18px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: left;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+}
+
+.athens{
+	position: absolute;
+top: 2203px;
+left: 326px;
+height: 29px;
+width: 118px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(119, 129, 134, 1);
+text-align: left;
+line-height: 29px;
+
+}
+
+.rutgers{
+	position: absolute;
+top: 1892px;
+left: 600px;
+height: 352px;
+width: 260px;
+
+}
+
+.ruttext{
+	white-space: nowrap;
+	position: absolute;
+top: 2178px;
+left: 613px;
+height: 29px;
+width: 167px;
+font-family: 'San Francisco Text';
+font-size: 18px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: left;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+}
+
+.bruns{
+	white-space: nowrap;
+	position: absolute;
+top: 2203px;
+left: 613px;
+height: 29px;
+width: 184px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(119, 129, 134, 1);
+text-align: left;
+line-height: 29px;
+
+}
+
+.miami{
+	position: absolute;
+top: 1892px;
+left: 886px;
+height: 351px;
+width: 260px;
+
+}
+
+.miamitext{
+	white-space: nowrap;
+	position: absolute;
+top: 2178px;
+left: 888px;
+height: 29px;
+width: 167px;
+font-family: 'San Francisco Text';
+font-size: 18px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: left;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+}
+
+.florida{
+	white-space: nowrap;
+	position: absolute;
+top: 2203px;
+left: 888px;
+height: 29px;
+width: 184px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(119, 129, 134, 1);
+text-align: left;
+line-height: 29px;
+
+}
+.photo1{
+	position: absolute;
+top: 2384px;
+left: 0px;
+height: 288px;
+width: 480px;
+
+}
+
+.photo2{
+	position: absolute;
+top: 2671px;
+left: 480px;
+height: 287px;
+width: 480px;
+
+}
+
+.photo3{
+	position: absolute;
+top: 2384px;
+left: 960px;
+height: 288px;
+width: 480px;
+
+}
+
+.word1{
+	position: absolute;
+top: 2466px;
+left: 546px;
+height: 125px;
+width: 347px;
+/*Text styles for “ */
+font-family: 'National';
+font-size: 18px;
+font-weight: 300;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+/*Text styles for It was an  */
+font-family: 'National-Medium';
+font-size: 18px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+/*Text styles for I had no i */
+font-family: 'National';
+font-size: 18px;
+font-weight: 300;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+
+}
+
+.word2{
+	position: absolute;
+top: 2741px;
+left: 76px;
+height: 150px;
+width: 328px;
+/*Text styles for “ */
+font-family: 'National';
+font-size: 18px;
+font-weight: 300;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+/*Text styles for GO! It is  */
+font-family: 'National-Medium';
+font-size: 18px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+/*Text styles for You get to */
+font-family: 'National';
+font-size: 18px;
+font-weight: 300;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+
+}
+
+.word3{
+	
+position: absolute;
+top: 2741px;
+left: 1036px;
+height: 150px;
+width: 328px;
+/*Text styles for “ */
+font-family: 'National';
+font-size: 18px;
+font-weight: 300;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+/*Text styles for It was an  */
+font-family: 'National-Medium';
+font-size: 18px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+/*Text styles for My thought */
+font-family: 'National';
+font-size: 18px;
+font-weight: 300;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+line-height: 25px;
+
+}
+
+
+.motto{
+	position: absolute;
+top: 3060px;
+left: 185px;
+height: 110px;
+width: 1070px;
+font-family: 'National';
+font-size: 45px;
+font-weight: 300;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+
+
+
+
+/* THIS IS FOR THE PARENTS PAGE */
+
+.helloparents{
+	position: absolute;
+top: 151px;
+left: 253px;
+height: 67px;
+width: 577px;
+font-family: 'National';
+font-size: 55px;
+font-weight: 500;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+
+}
+
+.msg{
+	position: absolute;
+top: 232px;
+left: 255px;
+height: 29px;
+width: 463px;
+font-family: 'National';
+font-size: 22px;
+font-weight: 300;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 29px;
+
+}
+
+.policybutton{
+	position: absolute;
+top: 319px;
+left: 237px;
+height: 36px;
+width: 187px;
+
+}
+
+.safety{
+	position: absolute;
+top: 533px;
+left: 360px;
+height: 36px;
+width: 300px;
+font-family: 'National';
+font-size: 30px;
+font-weight: 500;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+
+.safety1{
+	position: absolute;
+top: 606px;
+left: 360px;
+height: 115px;
+width: 360px;
+/*Text styles for All guides */
+font-family: 'National';
+font-size: 16px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+/*Text styles for GPA of 2.5 */
+font-family: 'National-Bold';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+/*Text styles for or higher  */
+font-family: 'National';
+font-size: 16px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+
+}
+
+.safety2{
+	position: absolute;
+top: 606px;
+left: 770px;
+height: 92px;
+width: 360px;
+/*Text styles for For */
+font-family: 'National';
+font-size: 16px;
+color: rgba(92, 92, 92, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+/*Text styles for overnight */
+font-family: 'National-Bold';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+/*Text styles for and */
+font-family: 'National';
+font-size: 16px;
+color: rgba(92, 92, 92, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+/*Text styles for full weeke */
+font-family: 'National-Bold';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+/*Text styles for visits, vi */
+font-family: 'National';
+font-size: 16px;
+color: rgba(92, 92, 92, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+
+}
+
+.checkr{
+	white-space: nowrap;
+	position: absolute;
+top: 729px;
+left: 770px;
+height: 23px;
+width: 167px;
+font-family: 'National';
+font-size: 16px;
+color: rgba(1, 206, 201, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+
+}
+
+.comm{
+	position: absolute;
+top: 785px;
+left: 360px;
+height: 36px;
+width: 300px;
+font-family: 'National';
+font-size: 30px;
+font-weight: 500;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+
+.comm1{
+	position: absolute;
+top: 858px;
+left: 360px;
+height: 115px;
+width: 360px;
+font-family: 'National';
+font-size: 16px;
+color: rgba(92, 92, 92, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+
+}
+
+.comm2{
+	position: absolute;
+top: 858px;
+left: 770px;
+height: 92px;
+width: 360px;
+font-family: 'National';
+font-size: 16px;
+color: rgba(92, 92, 92, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 23px;
+
+}
+
+.cost{
+	white-space:nowrap;
+	position: absolute;
+top: 1102px;
+left: 570px;
+height: 36px;
+width: 300px;
+font-family: 'National';
+font-size: 30px;
+font-weight: 500;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.cost1{
+	position: absolute;
+top: 1175px;
+left: 454px;
+height: 46px;
+width: 533px;
+font-family: 'National';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.02em;
+line-height: 23px;
+
+}
+
+.timepic{
+	position: absolute;
+top: 1273px;
+left: 409px;
+height: 90px;
+width: 86px;
+
+}
+
+.timetext{
+	position: absolute;
+top: 1382px;
+left: 351px;
+height: 29px;
+width: 206px;
+font-family: 'National';
+font-size: 20px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: center;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+}
+
+.timemore{
+	position: absolute;
+top: 1422px;
+left: 378px;
+height: 76px;
+width: 147px;
+font-family: 'National';
+font-size: 15px;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.02em;
+
+}
+
+.doubtmore{
+	position: absolute;
+top: 1422px;
+left: 642px;
+height: 76px;
+width: 147px;
+font-family: 'National';
+font-size: 15px;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.02em;
+
+
+}
+
+.savemore{
+	position: absolute;
+top: 1422px;
+left: 904px;
+height: 57px;
+width: 167px;
+font-family: 'National';
+font-size: 15px;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+letter-spacing: 0.02em;
+
+
+}
+.doubttext{
+	white-space: nowrap;
+	position: absolute;
+top: 1382px;
+left: 618px;
+height: 29px;
+width: 206px;
+font-family: 'National';
+font-size: 20px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: center;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+}
+
+.savetext{
+	position: absolute;
+top: 1382px;
+left: 884px;
+height: 29px;
+width: 206px;
+font-family: 'National';
+font-size: 20px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: center;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+}
+
+.doubtpic{
+	position: absolute;
+top: 1273px;
+left: 670px;
+height: 90px;
+width: 90px;
+
+}
+
+.savepic{
+	position: absolute;
+top: 1273px;
+left: 936px;
+height: 90px;
+width: 97px;
+
+}
+
+.data1{
+	position: absolute;
+top: 1616px;
+left: 236px;
+height: 425px;
+width: 461px;
+
+}
+
+.data2{
+	position: absolute;
+top: 1616px;
+left: 744px;
+height: 425px;
+width: 461px;
+
+}
+.allcosts{
+	position: absolute;
+top: 2215px;
+left: 324px;
+height: 481px;
+width: 793px;
+
+}
+
+.ourcosts{
+	position: absolute;
+top: 2249px;
+left: 1px;
+height: 206px;
+width: 180px;
+
+}
+
+/* THE NEXT BLOCK IS TO BE ON ALL PAGES, HENCE IS MENTIONED SEPARATELY */
+
+.rectangle{
+	position: absolute;
+top: 3217px;
+bottom: 0;
+left: 0px;
+height: 351px;
+width: 1440px;
+background-color: rgba(33, 40, 48, 1);
+
+}
+
+.signup{
+	position: absolute;
+top: 3359px;
+bottom: 0;
+left: 119px;
+height: 14px;
+width: 90px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.moreinfo{
+	white-space: nowrap;
+	position: absolute;
+top: 3359px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.faqblock{
+	position: absolute;
+top: 3412px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.guideblock{
+	position: absolute;
+top: 3412px;
+left: 119px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.policyblock{
+	position: absolute;
+top: 3359px;
+left: 359px;
+height: 14px;
+width: 86px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.guidepolicy{
+	white-space: nowrap;
+	position: absolute;
+top: 3389px;
+left: 359px;
+height: 14px;
+width: 107px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.insurance{
+	white-space: nowrap;
+	position: absolute;
+top: 3412px;
+left: 359px;
+height: 14px;
+width: 159px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.joinus{
+	white-space: nowrap;
+	position: absolute;
+top: 3358px;
+left: 676px;
+height: 15px;
+width: 84px;
+font-family: 'Roboto';
+font-size: 13px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+.smallrect{
+	position: absolute;
+top: 3393px;
+left: 920px;
+height: 33px;
+width: 251px;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 8px;
+
+}
+.ques{
+	white-space: nowrap;
+	position: absolute;
+top: 3358px;
+left: 966px;
+height: 15px;
+width: 159px;
+font-family: 'Roboto';
+font-size: 13px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+
+.visitblock{
+	position: absolute;
+top: 3389px;
+left: 119px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.parentsblock{
+	position: absolute;
+top: 3389px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.fb{
+	position: absolute;
+top: 3389px;
+left: 637px;
+height: 31px;
+width: 31px;
+
+}
+
+.twit{
+	position: absolute;
+top: 3389px;
+left: 680px;
+height: 31px;
+width: 31px;
+
+}
+
+.gplus{
+	position: absolute;
+top: 3389px;
+left: 722px;
+height: 31px;
+width: 31px;
+
+}
+
+.insta{
+	position: absolute;
+top: 3389px;
+left: 764px;
+height: 31px;
+width: 31px;
+
+}
+
+.boxcont{
+	position: absolute;
+top: 3393px;
+left: 920px;
+height: 33px;
+width: 251px;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 8px;
+
+}
+.contact{
+	position: absolute;
+top: 3403px;
+left: 924px;
+height: 13px;
+width: 242px;
+font-family: 'Roboto';
+font-size: 11px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+.copyright{
+	position: absolute;
+top: 3544px;
+left: 484px;
+height: 14px;
+width: 459px;
+font-family: 'Roboto';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
 
 }

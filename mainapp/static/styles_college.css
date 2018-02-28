@@ -1,0 +1,568 @@
+/* BUILT IN SAME PATTERN TO styles_home but required to have other CSS elements */
+
+
+a:link {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+a:visited{
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+.uni{
+	position: absolute;
+top: 29px;
+left: 32px;
+height: 25px;
+width: 298px;
+/*Text styles for UNIVERSITY */
+font-family: 'Akrobat';
+font-size: 21px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.1em;
+line-height: 25px;
+/*Text styles for S */
+font-family: 'Akrobat';
+font-size: 21px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+line-height: 25px;
+
+}
+.bgimage{
+	background-image: url("images/ic_headerphoto.png");
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 684px;
+	width: 1440px;
+	background-repeat: no-repeat;
+}
+.bgparents{
+	background-image: url("images/ic_headerphoto.png");
+position: absolute;
+top: 0px;
+left: 0px;
+height: 484px;
+width: 1440px;
+background-repeat: no-repeat;
+	}
+.parents{
+	position: absolute;
+top: 34px;
+left: 927px;
+height: 20px;
+width: 64px;
+font-family: 'National';
+font-size: 17px;
+color: rgba(255, 255, 255, 1);
+text-align: right;
+
+}
+.visits{
+	position: absolute;
+top: 34px;
+left: 1029px;
+height: 20px;
+width: 51px;
+font-family: 'National';
+font-size: 17px;
+color: rgba(255, 255, 255, 1);
+text-align: right;
+
+}
+.become{
+	position: absolute;
+top: 34px;
+left: 1117px;
+height: 20px;
+width: 119px;
+font-family: 'National';
+font-size: 17px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+}
+
+.profile{
+	position: absolute;
+top: 31px;
+left: 1296px;
+height: 28px;
+width: 28px;
+
+}
+
+.maintext{
+	position: absolute;
+top: 164px;
+left: 253px;
+height: 96px;
+width: 577px;
+font-family: 'National';
+font-size: 40px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+
+
+}
+.nexttext{
+	position: absolute;
+top: 291px;
+left: 255px;
+height: 50px;
+width: 553px;
+font-family: 'National';
+font-size: 20px;
+font-weight: 300;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 25px;
+}
+
+
+/* CSS specific to colleges/becomeaguide, etc. go here */
+
+.georgia{
+	position: absolute;
+top: 609px;
+left: 314px;
+height: 353px;
+width: 260px;
+
+
+}
+
+.geotext{
+	white-space: nowrap;
+	position: absolute;
+top: 895px;
+left: 326px;
+height: 29px;
+width: 184px;
+font-family: 'San Francisco Text';
+font-size: 18px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: left;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+
+}
+
+.athens{
+	position: absolute;
+top: 920px;
+left: 326px;
+height: 29px;
+width: 118px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(119, 129, 134, 1);
+text-align: left;
+line-height: 29px;
+
+
+
+}
+
+.rutgers{
+	position: absolute;
+top: 609px;
+left: 610px;
+height: 352px;
+width: 260px;
+
+
+}
+
+.ruttext{
+	white-space: nowrap;
+	position: absolute;
+top: 895px;
+left: 623px;
+height: 29px;
+width: 167px;
+font-family: 'San Francisco Text';
+font-size: 18px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: left;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+
+}
+
+.bruns{
+	white-space: nowrap;
+	position: absolute;
+top: 920px;
+left: 623px;
+height: 29px;
+width: 184px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(119, 129, 134, 1);
+text-align: left;
+line-height: 29px;
+
+
+}
+
+.miami{
+	position: absolute;
+top: 609px;
+left: 906px;
+height: 351px;
+width: 260px;
+
+
+}
+
+.miamitext{
+	white-space: nowrap;
+	position: absolute;
+top: 895px;
+left: 918px;
+height: 29px;
+width: 167px;
+font-family: 'San Francisco Text';
+font-size: 18px;
+font-weight: 500;
+color: rgba(35, 31, 32, 1);
+text-align: left;
+letter-spacing: 0.01em;
+line-height: 29px;
+
+
+}
+
+.florida{
+	white-space: nowrap;
+	position: absolute;
+top: 920px;
+left: 918px;
+height: 29px;
+width: 184px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(119, 129, 134, 1);
+text-align: left;
+line-height: 29px;
+
+
+}
+
+.first{
+	position: absolute;
+top: 1014px;
+left: 666px;
+height: 31px;
+width: 29px;
+font-family: 'National';
+font-size: 25px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+
+}
+
+.second{
+	position: absolute;
+top: 1014px;
+left: 706px;
+height: 31px;
+width: 29px;
+font-family: 'National';
+font-size: 25px;
+color: rgba(155, 155, 155, 1);
+text-align: center;
+
+}
+
+
+.third{
+	position: absolute;
+top: 1014px;
+left: 746px;
+height: 31px;
+width: 29px;
+font-family: 'National';
+font-size: 25px;
+color: rgba(155, 155, 155, 1);
+text-align: center;
+
+}
+
+.costs{
+	position: absolute;
+top: 1241px;
+left: 0px;
+height: 206px;
+width: 180px;
+
+}
+
+
+
+
+
+
+
+
+
+
+/* THE NEXT BLOCK IS TO BE ON ALL PAGES, HENCE IS MENTIONED SEPARATELY */
+
+.rectangle{
+	position: absolute;
+top: 3217px;
+bottom: 0;
+left: 0px;
+height: 351px;
+width: 1440px;
+background-color: rgba(33, 40, 48, 1);
+
+}
+
+.signup{
+	position: absolute;
+top: 3359px;
+bottom: 0;
+left: 119px;
+height: 14px;
+width: 90px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.moreinfo{
+	white-space: nowrap;
+	position: absolute;
+top: 3359px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.faqblock{
+	position: absolute;
+top: 3412px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.guideblock{
+	position: absolute;
+top: 3412px;
+left: 119px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.policyblock{
+	position: absolute;
+top: 3359px;
+left: 359px;
+height: 14px;
+width: 86px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.guidepolicy{
+	white-space: nowrap;
+	position: absolute;
+top: 3389px;
+left: 359px;
+height: 14px;
+width: 107px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.insurance{
+	white-space: nowrap;
+	position: absolute;
+top: 3412px;
+left: 359px;
+height: 14px;
+width: 159px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.joinus{
+	white-space: nowrap;
+	position: absolute;
+top: 3358px;
+left: 676px;
+height: 15px;
+width: 84px;
+font-family: 'Roboto';
+font-size: 13px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+.smallrect{
+	position: absolute;
+top: 3393px;
+left: 920px;
+height: 33px;
+width: 251px;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 8px;
+
+}
+.ques{
+	white-space: nowrap;
+	position: absolute;
+top: 3358px;
+left: 966px;
+height: 15px;
+width: 159px;
+font-family: 'Roboto';
+font-size: 13px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+
+.visitblock{
+	position: absolute;
+top: 3389px;
+left: 119px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.parentsblock{
+	position: absolute;
+top: 3389px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.fb{
+	position: absolute;
+top: 3389px;
+left: 637px;
+height: 31px;
+width: 31px;
+
+}
+
+.twit{
+	position: absolute;
+top: 3389px;
+left: 680px;
+height: 31px;
+width: 31px;
+
+}
+
+.gplus{
+	position: absolute;
+top: 3389px;
+left: 722px;
+height: 31px;
+width: 31px;
+
+}
+
+.insta{
+	position: absolute;
+top: 3389px;
+left: 764px;
+height: 31px;
+width: 31px;
+
+}
+
+.boxcont{
+	position: absolute;
+top: 3393px;
+left: 920px;
+height: 33px;
+width: 251px;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 8px;
+
+}
+.contact{
+	position: absolute;
+top: 3403px;
+left: 924px;
+height: 13px;
+width: 242px;
+font-family: 'Roboto';
+font-size: 11px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+.copyright{
+	position: absolute;
+top: 3544px;
+left: 484px;
+height: 14px;
+width: 459px;
+font-family: 'Roboto';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
