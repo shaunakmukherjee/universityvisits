@@ -334,6 +334,34 @@ height: 481px;
 width: 793px;
 }
 
+.book1{
+	position: absolute;
+top: 1608px;
+left: 374px;
+height: 36px;
+width: 160px;
+
+
+}
+
+.book2{
+	position: absolute;
+top: 1612px;
+left: 639px;
+height: 36px;
+width: 160px;
+
+}
+
+
+.book3{
+position: absolute;
+top: 1612px;
+left: 912px;
+height: 36px;
+width: 160px;
+
+}
 .mostvisited{
 	position: absolute;
 top: 1834px;

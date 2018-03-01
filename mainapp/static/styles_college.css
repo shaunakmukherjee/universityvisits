@@ -30,15 +30,6 @@ text-align: left;
 line-height: 25px;
 
 }
-.bgimage{
-	background-image: url("images/ic_headerphoto.png");
-	position: absolute;
-	top: 0px;
-	left: 0px;
-	height: 684px;
-	width: 1440px;
-	background-repeat: no-repeat;
-}
 .bgparents{
 	background-image: url("images/ic_headerphoto.png");
 position: absolute;
@@ -47,7 +38,36 @@ left: 0px;
 height: 484px;
 width: 1440px;
 background-repeat: no-repeat;
-	}
+}
+
+
+.bgguide{
+background-image: url("images/ic_headerphoto.png");
+	position: absolute;
+top: 0px;
+left: 0px;
+height: 512px;
+width: 1440px;
+background-repeat: no-repeat;
+
+}
+
+.wantto{
+	white-space: nowrap;
+	position: absolute;
+top: 578px;
+left: 540px;
+height: 43px;
+width: 360px;
+font-family: 'National';
+font-size: 35px;
+font-weight: 500;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
 .parents{
 	position: absolute;
 top: 34px;
@@ -307,6 +327,239 @@ width: 180px;
 
 
 
+.allcostsmain{
+	position: absolute;
+top: 1202px;
+left: 324px;
+height: 481px;
+width: 793px;
+}
+
+
+.book1{
+	position: absolute;
+top: 1608px;
+left: 374px;
+height: 36px;
+width: 160px;
+
+
+}
+
+.book2{
+	position: absolute;
+top: 1612px;
+left: 639px;
+height: 36px;
+width: 160px;
+
+}
+
+
+.book3{
+position: absolute;
+top: 1612px;
+left: 912px;
+height: 36px;
+width: 160px;
+
+}
+
+
+.rect{
+	position: absolute;
+top: 421px;
+left: 250px;
+height: 36px;
+width: 160px;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 18px;
+
+}
+
+.mainguide{
+	position: absolute;
+top: 151px;
+left: 253px;
+height: 67px;
+width: 577px;
+font-family: 'National';
+font-size: 55px;
+font-weight: 500;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+
+}
+.nextguide{
+	position: absolute;
+top: 232px;
+left: 254px;
+height: 87px;
+width: 637px;
+text-shadow: 0px 0px 4px  rgba(0, 0, 0, 0.5);
+font-family: 'National';
+font-size: 22px;
+font-weight: 300;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.02em;
+line-height: 29px;
+
+}
+.butt1{
+	position: absolute;
+top: 431px;
+left: 237px;
+height: 16px;
+width: 187px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+font-weight: 400;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+
+}
+
+
+.bigrect{
+	position: absolute;
+top: 513px;
+left: 0px;
+height: 421px;
+width: 1440px;
+background-image: -webkit-linear-gradient(rgba(113, 145, 215, 1) 0%, rgba(56, 89, 159, 1) 100%);
+background-image: -moz-linear-gradient(rgba(113, 145, 215, 1) 0%, rgba(56, 89, 159, 1) 100%);
+background-image: -o-linear-gradient(rgba(113, 145, 215, 1) 0%, rgba(56, 89, 159, 1) 100%);
+background-image: linear-gradient(rgba(113, 145, 215, 1) 0%, rgba(56, 89, 159, 1) 100%);
+-webkit-transform:  rotate(180deg);
+-ms-transform:  rotate(180deg);
+transform:  rotate(180deg);
+
+}
+
+.glad{
+	white-space: nowrap;
+	position: absolute;
+top: 621px;
+left: 448px;
+height: 29px;
+width: 544px;
+font-family: 'National';
+font-size: 22px;
+font-weight: 300;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.02em;
+line-height: 29px;
+
+}
+
+.guidereqs{
+position: absolute;
+top: 711px;
+left: 445px;
+height: 277px;
+width: 812px;
+
+}
+.earnbox{
+position: absolute;
+top: 1033px;
+left: 404px;
+height: 243px;
+width: 812px;
+background-color: rgba(255, 255, 255, 1);
+box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.17);
+
+}
+.earntext{
+	position: absolute;
+top: 1078px;
+left: 495px;
+height: 36px;
+width: 550px;
+/*Text styles for What you c */
+font-family: 'National';
+font-size: 30px;
+font-weight: 500;
+color: rgba(33, 40, 48, 1);
+text-align: center;
+letter-spacing: 0.03em;
+/*Text styles for guiding */
+font-family: 'National';
+font-size: 30px;
+font-weight: 500;
+color: rgba(113, 145, 215, 1);
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+
+.blueavg{
+	position: absolute;
+top: 1143px;
+left: 873px;
+height: 80px;
+width: 189px;
+background-color: rgba(113, 145, 215, 1);
+border-radius: 7px;
+
+}
+
+.weekavg{
+	position: absolute;
+top: 1154px;
+left: 897px;
+height: 36px;
+width: 131px;
+font-family: 'San Francisco Text';
+font-size: 30px;
+font-weight: bold;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+
+}
+
+
+.whyguide{
+	position: absolute;
+top: 1404px;
+left: 0px;
+height: 197px;
+width: 183px;
+
+}
+
+
+.guidefaqs{
+	position: absolute;
+	top: 1360px;
+	left: 295px;
+}
+
+.howwork{
+	position: absolute;
+top: 1676px;
+left: 0px;
+height: 263px;
+width: 183px;
+
+}
+
+.guidefaqs2{
+	position: absolute;
+	top: 2023px;
+	left: 308px; 
+}
+
+.paid{
+	position: absolute;
+top: 2286px;
+left: 0px;
+height: 243px;
+width: 183px;
+
+}
 
 
 
