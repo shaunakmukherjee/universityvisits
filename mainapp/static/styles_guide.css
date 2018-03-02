@@ -192,13 +192,50 @@ text-align: left;
 letter-spacing: 0.02em;
 
 }
-.profpic{
+#profpic{
 	position: absolute;
 top: 162px;
 left: 181px;
 height: 199px;
 width: 199px;
 
+
+}
+input[type='file'] {
+  color: transparent;
+  opacity: 0;
+}
+
+.photo{
+	position: absolute;
+	top: 244px;
+	left: 225px;
+	width: 30px;
+}
+.bookvisit{
+	white-space: nowrap;
+	position: absolute;
+top: 29px;
+left: 837px;
+height: 19px;
+width: 185px;
+font-family: 'National';
+font-size: 15px;
+color: rgba(74, 74, 74, 1);
+text-align: right;
+
+}
+.logoutbtn{
+	white-space: nowrap;
+	position: absolute;
+top: 29px;
+left: 1119px;
+height: 19px;
+width: 63px;
+font-family: 'National';
+font-size: 15px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
 
 }
 .notifmsg{
@@ -285,6 +322,402 @@ color: rgba(90, 89, 89, 1);
 text-align: left;
 letter-spacing: 0.03em;
 line-height: 50px;
+
+}
+
+/* CSS SPECIFIC TO GUIDE SIGN UP PROCESS */
+.welcome{
+	white-space: nowrap;
+	position: absolute;
+top: 76px;
+left: 185px;
+height: 39px;
+width: 649px;
+font-family: 'National';
+font-size: 25px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+line-height: 50px;
+
+}
+
+.step1{
+	position: absolute;
+top: 170px;
+left: 227px;
+height: 45px;
+width: 987px;
+
+}
+
+.guideinfo{
+	position: absolute;
+top: 265px;
+left: 275px;
+height: 24px;
+width: 430px;
+font-family: 'National';
+font-size: 20px;
+font-weight: bold;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+
+.ic_1_5{
+	position: absolute;
+top: 301px;
+left: 248px;
+height: 20px;
+width: 944px;
+
+}
+
+.firstname{
+	position: absolute;
+top: 374px;
+left: 521px;
+height: 30px;
+width: 496px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+}
+
+.lastname{
+	position: absolute;
+top: 421px;
+left: 521px;
+height: 30px;
+width: 496px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.email{
+	position: absolute;
+top: 505px;
+left: 521px;
+height: 30px;
+width: 496px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.phone{
+	position: absolute;
+top: 552px;
+left: 521px;
+height: 30px;
+width: 496px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.phonedisclaimer{
+	position: absolute;
+top: 588px;
+left: 523px;
+height: 24px;
+width: 330px;
+font-family: 'San Francisco Text';
+font-size: 10px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.04em;
+
+}
+
+.uniname{
+	position: absolute;
+top: 636px;
+left: 521px;
+height: 30px;
+width: 353px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.major{
+	position: absolute;
+top: 684px;
+left: 521px;
+height: 30px;
+width: 496px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.year{
+	position: absolute;
+top: 730px;
+left: 521px;
+height: 30px;
+width: 93px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.graddate{
+	position: absolute;
+top: 730px;
+left: 803px;
+height: 30px;
+width: 122px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.bdaytext{
+	position: absolute;
+top: 783px;
+left: 362px;
+height: 16px;
+width: 122px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: right;
+letter-spacing: 0.04em;
+
+}
+
+.bday{
+	position: absolute;
+top: 777px;
+left: 521px;
+height: 30px;
+width: 193px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+.bio{
+	position: absolute;
+top: 824px;
+left: 521px;
+height: 103px;
+width: 496px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.biodetails{
+	position: absolute;
+top: 941px;
+left: 523px;
+height: 36px;
+width: 330px;
+font-family: 'San Francisco Text';
+font-size: 10px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.04em;
+
+}
+
+.bigrect{
+	position: absolute;
+top: 248px;
+left: 242px;
+height: 835px;
+width: 956px;
+
+}
+.nextbtn{
+	position: absolute;
+top: 1123px;
+left: 1059px;
+height: 44px;
+width: 133px;
+
+}
+
+.profpicguide{
+	position: absolute;
+top: 391px;
+left: 576px;
+height: 64px;
+width: 290px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.04em;
+
+}
+
+
+.guidepic{
+	
+position: absolute;
+top: 344px;
+left: 284px;
+height: 222px;
+width: 222px;
+background-color: rgba(214, 238, 238, 1);
+border-radius: 222px;
+
+}
+
+.profvideo{
+	white-space: nowrap;
+	position: absolute;
+top: 677px;
+left: 574px;
+height: 27px;
+width: 178px;
+font-family: 'National';
+font-size: 22px;
+font-weight: bold;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+
+.checklist{
+	position: absolute;
+top: 780px;
+left: 574px;
+height: 147px;
+width: 583px;
+/*Text styles for •	For reas */
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.04em;
+line-height: 21px;
+/*Text styles for •	We love  */
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+line-height: 21px;
+
+}
+
+.phototext
+{
+white-space: nowrap;
+position: absolute;
+top: 344px;
+left: 574px;
+height: 27px;
+width: 245px;
+font-family: 'National';
+font-size: 22px;
+font-weight: bold;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+.morestuff{
+	position: absolute;
+top: 966px;
+left: 574px;
+height: 27px;
+width: 431px;
+font-family: 'National';
+font-size: 22px;
+font-style: italic;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+
+.next2{
+	position: absolute;
+top: 1263px;
+left: 1060px;
+height: 44px;
+width: 133px;
+
+}
+.anothercheck{
+	position: absolute;
+top: 1043px;
+left: 574px;
+height: 126px;
+width: 583px;
+/*Text styles for •	First na */
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.04em;
+line-height: 21px;
+/*Text styles for •	Where ar */
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+line-height: 21px;
+
+}
+
+
+
+.policychoose{
+	white-space: nowrap;
+	position: absolute;
+top: 348px;
+left: 501px;
+height: 27px;
+width: 489px;
+font-family: 'National';
+font-size: 22px;
+font-style: italic;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+
+.policytypes{
+	position: absolute;
+top: 395px;
+left: 484px;
+height: 63px;
+width: 378px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.04em;
+line-height: 21px;
+
+}
+
+.policybox{
+	position: absolute;
+top: 525px;
+left: 579px;
+height: 30px;
+width: 199px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.next4{
+	position: absolute;
+top: 654px;
+left: 1060px;
+height: 44px;
+width: 133px;
 
 }
 
@@ -539,4 +972,97 @@ color: rgba(255, 255, 255, 1);
 text-align: center;
 letter-spacing: 0.12em;
 
+}
+
+
+
+/* CSS FOR VIDEO BUTTON */
+.button {
+  border-style: solid;
+  border-width: 0px;
+  cursor: pointer;
+  font-family: "museo-sans-fontspring", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  font-weight: normal;
+  line-height: normal;
+  margin: 0 0 1.25rem;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  -webkit-appearance: none;
+  -webkit-border-radius: 0;
+  display: inline-block;
+  padding-top: 1rem;
+  padding-right: 2rem;
+  padding-bottom: 1.0625rem;
+  padding-left: 2rem;
+  font-size: 1rem;
+  background-color: #00c7e4;
+  border-color: #009fb6;
+  color: #FFFFFF;
+  border-radius: 3px;
+  border-bottom: 1px solid #008194;
+  text-transform: uppercase;
+  font-weight: 500;
+  transition: background-color 300ms ease-out;
+}
+
+h1 {
+  font-weight: 500;
+  font-size: 1.5rem;
+  text-transform: uppercase;
+  font-family: "museo-sans-fontspring", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #565656;
+}
+
+.button{
+	top: 677px;
+left: 284px;
+position: absolute;
+height: 222px;
+width: 222px;
+background-color: rgba(214, 238, 238, 1);
+border-radius: 222px;
+}
+
+.next3{
+	position: absolute;
+top: 765px;
+left: 1060px;
+height: 44px;
+width: 133px;
+
+}
+.videoupload{
+	position: absolute;
+
+height: 222px;
+width: 222px;
+background-color: rgba(214, 238, 238, 1);
+border-radius: 222px;
+
+}
+
+#upload-input {
+  height: 0px;
+  width: 0px;
+  overflow: hidden
+}
+
+textarea {
+  background-color: #DDDDDD;
+  color: grey;
+}
+
+#loader {
+  display: none;
+}
+
+p {
+  font-family: "museo-sans-fontspring", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  color: #525252;
+}
+
+a {
+  color: #00c7e4;
+  text-decoration: none;
 }

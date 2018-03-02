@@ -36,3 +36,21 @@ class History (TemplateView):
 
 class Help (TemplateView):
 	template_name = "helpcentre.html"
+#functions for each of the guide signup steps
+
+class Guide1(TemplateView):
+	template_name = "guide1.html"
+class Guide2(TemplateView):
+	template_name = "guide2.html"
+class Guide3(TemplateView):
+	template_name = "guide3.html"
+class Guide4(TemplateView):
+	template_name = "guide4.html"
+class Guide5(TemplateView):
+	template_name = "guide5.html"
+class Guide6(TemplateView):
+	template_name = "guide6.html"
+class Guide7(TemplateView):
+	template_name = "guide7.html"
+class Guide8(TemplateView):
+	template_name = "guide8.html"

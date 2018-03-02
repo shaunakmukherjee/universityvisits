@@ -1,0 +1,68 @@
+<! DOCTYPE html>
+<html>
+<title>University Visits - Become a Guide!</title>
+<head>
+	<link rel="stylesheet" href="/static/styles_guide.css">
+</head>
+{% load static %}	
+<div id="navbar">{% block navbar %} 
+	<span class="uni"><a href="/" style="color:rgba(113, 145, 215, 1);">UNIVERSITY VISITS</span></a>
+	<span class="bookvisit"><a href="/">BACK TO HOME</span></a>
+  	<span class="logoutbtn"><a href="/" style="color: rgba(74, 74, 74, 1)">LOG OUT</span></a>
+  	<span class="welcome"> Welcome, you’re just steps away from becoming a guide! </span>
+	{% endblock %} </div>
+
+
+	
+	<span class="step1"><img src="{% static "images/ic_step1.png" %}" alt=""></span>
+	<span class="guideinfo">GUIDE PROFILE INFORMATION</span>
+	<span class="ic_1_5"><img src="{% static "images/ic_1_5.png" %}" alt=""></span>
+
+	<!--NOW FOR THE FILLING UP OF THE FORM -->
+	<div>
+  	<form action="/guide2">
+    	<input type="text" span class="firstname" id="fname" name="firstname" placeholder="First Name">
+		<input type="text" span class="lastname" id="lname" name="lastname" placeholder="Last Name">
+		<input type="text" span class="phone" id="mobile" name="phone" placeholder="Mobile Number">
+		<span class="phonedisclaimer"> * When you accept a visit request, your visitor will be given your number - this is how you will get in touch with one another. </span>	
+		<input type="E-mail" span class="email" id="email" name="email" placeholder="E-Mail Address">
+		<input type="text" span class="uniname" id="uniname" name="uninname" placeholder="University/College">
+		<input type="text" span class="major" id="major" name="major" placeholder="Major">
+		<input type="text" span class="year" id="year" name="year" placeholder="Year">
+		<input type="text" span class="graddate" id="graddate" name="graddate" placeholder="Graduation Date">
+		<span class="bdaytext">Birthday</span>
+		<input type="date" span class="bday" id="bday" name="birthday" placeholder="Birthday">
+ 		<input type="text" span class="bio" id="bio" name="bio" placeholder="Describe Yourself">
+ 		<span class="biodetails"> * Help visitors get to know you. Tell them about your interests - academic and otherwise. Let them know why you're a great guide to choose. </span>
+    </form>
+	</div>
+	<span class="nextbtn"><a href="/guide2"><img src="{% static "images/ic_nextnew.png" %}" alt=""></span></a>
+
+<div id="footer">
+		{% block footer %}
+		<span class="rectangle"></span>
+		<span class="signupguide"><a href="/become">SIGN UP</span></a>
+		<span class="parentsblock"><a href="/parents">PARENTS</span></a>
+		<span class="visitblock"><a href="/">VISIT US</span></a>
+		<span class="moreinfo">MORE INFO</span>
+		<span class="policyblock"><a href="/policy">POLICY</span></a>
+		<span class="guidepolicy">GUIDE POLICY</span>
+		<span class="insurance">INSURANCE AND SECURITY</span>
+		<span class="guideblock"><a href="/become">GUIDE</span></a>
+		<span class="faqblock">FAQ's</span>
+		<span class="joinus">Join Us On</span>
+		<span class="fb"><a href="https://www.facebook.com"><img src="{% static "images/ic_facebook.png" %}" alt=""></span></a>
+		<span class="twit"><a href="https://www.twitter.com"><img src="{% static "images/ic_twitter.png" %}" alt=""></span></a>
+		<span class="insta"><a href="https://www.instagram.com"><img src="{% static "images/ic_instagram.png" %}" alt=""></span></a>
+		<span class="gplus"><a href="https://www.google.com"><img src="{% static "images/ic_googleplus.png" %}" alt=""></span></a>
+		<span class="copyright">(c) University Visits, 2018.</span>
+		<span class="ques">Questions? E-mail us</span>
+		<span class="boxcont"></span>
+		<div class="contact"><a href="mailto:contact@universityvisits.net?Subject=Hi%20Had%20%A%Question" target="_top">contact@universityvisits.net</div></a>
+		{% endblock %}
+	</div>
+
+
+
+</body>
+</html>
