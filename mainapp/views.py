@@ -22,6 +22,12 @@ class Becomeaguide(TemplateView):
 class Profile(TemplateView):
 	template_name = "login.html"
 
+class Details(TemplateView):
+	template_name = "details.html"
+
+class GuideList(TemplateView):
+	template_name = "guidelist.html"
+
 class Policy(TemplateView):
 	template_name = "policy.html"
 
@@ -31,8 +37,11 @@ class Visitor(TemplateView):
 class PendingVisits (TemplateView):
 	template_name = "pending.html"
 
-class History (TemplateView):
+class VisitHistory (TemplateView):
 	template_name = "visithistory.html"
+
+class GuideHistory (TemplateView):
+	template_name = "guidehistory.html"
 
 class Help (TemplateView):
 	template_name = "helpcentre.html"
@@ -54,3 +63,11 @@ class Guide7(TemplateView):
 	template_name = "guide7.html"
 class Guide8(TemplateView):
 	template_name = "guide8.html"
+
+class BookConf2(TemplateView):
+	template_name = "bookconf2.html"
+
+class BookConf1(TemplateView):
+	template_name = "bookconf1.html"
+class GuideHome(TemplateView):
+	template_name = "guidedash.html"

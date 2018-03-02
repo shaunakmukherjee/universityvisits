@@ -1,0 +1,32 @@
+{% extends "guidebase.html" %}
+
+{% block content %}
+
+{% load static %}
+  <span class="visname">Shaun Mukherjee</span>
+  <span class="visphone"><img src="{% static "images/ic_profile_info.png" %}" alt=""></span>
+  <span class="visnum"> Overnight Guide</span>
+  <span class="vismail"><img src="{% static "images/ic_college.png" %}" alt=""></span>
+  <span class="visemailid">JHU</span>
+  <span class="major"><img src="{% static "images/ic_major.png" %}" alt=""></span>
+  <span class="majortxt">BME</span>
+  <span class="vishisbox"></span>
+
+  
+  <div id="profpic"><img src="{% static "images/ic_profilepic.png" %}" alt=""></div>
+   <div id="profpic"><img id="blah" alt="" width="199" height="199" /></div>
+<span class="photo"><input type="file" 
+    onchange="document.getElementById('blah').src = window.URL.createObjectURL(this.files[0])"></span>
+ 
+  <span class="vishis"><a href="/guidehistory">Tour History</span></a>
+  <span class="helpbox"></span>
+  <span class="helpcentre"><a href="/help">Help Centre</span></a>
+  <span class="notifbox"></span>
+  <span class="notifs">NOTIFICATIONS</span>
+  <span class="notifmsg">You have <strong>1</strong> new notification!</span>
+  <span class="notifnew">Welcome to your first login! You don't have any visits booked by anyone yet. Hope you do though!</span>
+  <span class="msgbox"></span>
+  <span class="msgs">MESSAGES</span>
+  <span class="bookvisit"><a href="/" style="color: rgba(74, 74, 74, 1)">HOME</span></a>
+  <span class="logoutbtn"><a href="/" style="color: rgba(74, 74, 74, 1)">LOG OUT</span></a>
+{% endblock %}

@@ -1257,3 +1257,31 @@ a {
   color: #00c7e4;
   text-decoration: none;
 }
+
+
+
+
+/* FOLLOWING CSS IS FOR GUIDE PAGES ONLY */
+
+.major{
+	position: absolute;
+top: 521px;
+left: 199px;
+height: 10px;
+width: 13px;
+
+}
+
+.majortxt{
+	position: absolute;
+top: 517px;
+left: 227px;
+height: 16px;
+width: 182px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+
+}
+

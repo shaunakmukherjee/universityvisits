@@ -20,6 +20,12 @@ urlpatterns = [
 	url(r'^guide6$', views.Guide6.as_view()),
 	url(r'^guide7$', views.Guide7.as_view()),
 	url(r'^guide8$', views.Guide8.as_view()),
-	url(r'^history$',views.History.as_view()),
+	url(r'^visithistory$',views.VisitHistory.as_view()),
+	url(r'^guidehistory$', views.GuideHistory.as_view()),
 	url(r'^help$',views.Help.as_view()),
+	url(r'^guidehome$', views.GuideHome.as_view()),
+	url(r'^guidelist$',views.GuideList.as_view()),
+	url(r'^guidedetails$', views.Details.as_view()),
+	url(r'^bookconf1$', views.BookConf1.as_view()),
+	url(r'^bookconf2$', views.BookConf2.as_view()),
 ]

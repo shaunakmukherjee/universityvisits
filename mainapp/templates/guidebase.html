@@ -1,27 +1,28 @@
 <! DOCTYPE html>
 <html>
-<title>University Visits - Become a Guide!</title>
+
 <head>
+	{% block head %}
 	<link rel="stylesheet" href="/static/styles_guide.css">
+	<title>{% block title %} Welcome to Your Guide Profile! {% endblock %}</title>
+	{% endblock %}
 </head>
-{% load static %}	
+{% load static %}
 <body>
 	<div id="navbar">{% block navbar %} 
 	<span class="uni"><a href="/" style="color:rgba(113, 145, 215, 1);">UNIVERSITY VISITS</span></a>
-	<span class="bookvisit"><a href="/">BACK TO HOME</span></a>
-  	<span class="logoutbtn"><a href="/" style="color: rgba(74, 74, 74, 1)">LOG OUT</span></a>
-  	<span class="welcome"> Welcome, you’re just steps away from becoming a guide! </span>
-	{% endblock %} 
-</div>
-	<span class="step1"><img src="{% static "images/ic_finalstep.png" %}" alt=""></span>
-	<span class="guideinfo">CALL WITH GUIDE SUPPORT AND PROFILE REVIEW</span>
-	<span class="finalcall"> Your profile is very important in determining whether or not visitors choose you, so we review each profile and give you any suggestions that we think might spruce it up a bit! You’ll receive a call from our guide support system soon to make sure all your questions are answered! </span>
+	<span class="dash">VISITOR DASHBOARD</span>
+	<span class="rectnew"></span>
+	<span class="pend"><a href="/pending">REQUESTS</span></a>
+	<span class="upcoming">UPCOMING TOURS</span>
+	{% endblock %} </div>
 
+	<div id="content"> 
+		{% block content %}
+		{% endblock %}
+	</div>
 
-<span class="gotoprofile"><a href="/guidehome"><img src="{% static "images/ic_gotoprofile.png" %}" alt=""></span></a>
-
-
-<div id="footer">
+	<div id="footer">
 		{% block footer %}
 		<span class="rectangle"></span>
 		<span class="signupguide"><a href="/become">SIGN UP</span></a>
@@ -44,7 +45,10 @@
 		<div class="contact"><a href="mailto:contact@universityvisits.net?Subject=Hi%20Had%20%A%Question" target="_top">contact@universityvisits.net</div></a>
 		{% endblock %}
 	</div>
-
-
 </body>
 </html>
+
+
+
+
+
