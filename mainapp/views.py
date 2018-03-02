@@ -30,3 +30,9 @@ class Visitor(TemplateView):
 
 class PendingVisits (TemplateView):
 	template_name = "pending.html"
+
+class History (TemplateView):
+	template_name = "visithistory.html"
+
+class Help (TemplateView):
+	template_name = "helpcentre.html"

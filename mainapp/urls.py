@@ -13,5 +13,6 @@ urlpatterns = [
 	url(r'^visitor$', views.Visitor.as_view()),
 	url(r'^pending$', views.PendingVisits.as_view()),
 	#url(r'^signupvisit$', views.Signupvisit.as_view()),
-
+	url(r'^history$',views.History.as_view()),
+	url(r'^help$',views.Help.as_view()),
 ]

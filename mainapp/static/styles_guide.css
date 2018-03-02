@@ -54,6 +54,7 @@ box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.13);
 }
 
 .visname{
+	white-space: nowrap;
 	position: absolute;
 top: 380px;
 left: 201px;
@@ -66,6 +67,194 @@ color: rgba(0, 0, 0, 1);
 text-align: center;
 
 }
+
+.visphone{
+	position: absolute;
+top: 460px;
+left: 200px;
+height: 14px;
+width: 10px;
+
+}
+
+.visnum{
+	position: absolute;
+top: 457px;
+left: 227px;
+height: 16px;
+width: 182px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+
+}
+
+.vismail{
+	position: absolute;
+top: 489px;
+left: 199px;
+height: 10px;
+width: 13px;
+
+}
+
+.visemailid{
+	position: absolute;
+top: 485px;
+left: 227px;
+height: 16px;
+width: 182px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+
+}
+
+.vishisbox{
+	position: absolute;
+top: 559px;
+left: 199px;
+height: 35px;
+width: 161px;
+background-color: rgba(255, 255, 255, 1);
+border: 1px solid rgba(225, 225, 225, 1);
+
+}
+
+.vishis{
+	position: absolute;
+top: 569px;
+left: 211px;
+height: 16px;
+width: 137px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+}
+
+.helpbox{
+position: absolute;
+top: 602px;
+left: 199px;
+height: 35px;
+width: 161px;
+background-color: rgba(255, 255, 255, 1);
+border: 1px solid rgba(225, 225, 225, 1);
+
+}
+
+.helpcentre{
+position: absolute;
+top: 612px;
+left: 211px;
+height: 16px;
+width: 137px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+
+}
+
+
+.notifbox{
+	position: absolute;
+top: 165px;
+left: 510px;
+height: 40px;
+width: 721px;
+background-color: rgba(228, 232, 239, 1);
+border-radius: 10px 10px 0px 0px;
+
+}
+
+.notifs{
+	white-space: nowrap;
+	position: absolute;
+top: 175px;
+left: 530px;
+height: 21px;
+width: 119px;
+/*Text styles for NOTIFICATI */
+font-family: 'National';
+font-size: 18px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+/*Text styles for S */
+font-family: 'National';
+font-size: 18px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.02em;
+
+}
+.profpic{
+	position: absolute;
+top: 162px;
+left: 181px;
+height: 199px;
+width: 199px;
+
+
+}
+.notifmsg{
+	white-space: nowrap;
+	position: absolute;
+top: 215px;
+left: 687px;
+height: 21px;
+width: 367px;
+font-family: 'National';
+font-size: 12px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+letter-spacing: 0.03em;
+}
+.notifnew{
+
+	position: absolute;
+top: 315px;
+left: 617px;
+height: 21px;
+width: 467px;
+font-family: 'National';
+font-size: 18px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+letter-spacing: 0.03em;
+
+}
+.msgbox{
+	position: absolute;
+top: 475px;
+left: 510px;
+height: 40px;
+width: 721px;
+background-color: rgba(228, 232, 239, 1);
+border-radius: 10px 10px 0px 0px;
+
+}
+
+.msgs{
+	position: absolute;
+top: 485px;
+left: 530px;
+height: 21px;
+width: 205px;
+font-family: 'National';
+font-size: 18px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+
+
+
 .pend{
 	white-space: nowrap;
 	position: absolute;
@@ -112,7 +301,7 @@ background-color: rgba(33, 40, 48, 1);
 
 }
 
-.signup{
+.signupguide{
 	position: absolute;
 top: 3359px;
 bottom: 0;
