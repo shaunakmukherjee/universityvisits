@@ -6,6 +6,19 @@
 </head>
 {% load static %}	
 <body>
+	<!--THIS IS FOR CREATING A CUSTOM FACEBOOK LOGIN-->
+	<div id="fb-root"></div>
+	<script>
+	(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));
+	</script>
+
+
 	<div class="bgimage">
 	</div>
 		<span class="uni"><a href="/">UNIVERSITY VISITS</span></a>
@@ -20,6 +33,28 @@
 	<div class="butt1"><a href="/become">BECOME A GUIDE</div></a>
 	<div class="whitesign"></div>
 	<div class="signtext">SIGN UP TO VISIT</div>
+	<!-- user/visitor sign up process -->
+
+	
+	<div>
+  	<form action="/visitor">
+    	<input type="text" span class="firstname" id="fname" name="firstname" placeholder="First Name">
+		<input type="text" span class="lastname" id="lname" name="lastname" placeholder="Last Name">	
+		<input type="E-mail" span class="email" id="email" name="email" placeholder="E-Mail">
+		<input type="text" span class="mobile" id="mobile" name="mobilenumber" placeholder="Mobile Number">
+		<input type="password" span class="password" id="pwd" name="password" placeholder="Create a password">
+		<span class="bdaytext">BIRTHDAY: </span>
+		<input type="date" span class="bday" id="bday" name="birthday">
+		<input class="w3-radio" type="radio" name="gender" value="male" checked>
+ 		
+    	<input type="submit" span class="signupbtn" value="SIGN UP" style="color:white">
+    </form>
+	</div>
+		<span class="or">OR</span>
+    	<span class="signupfb"></span>
+    	<a href="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12"><input type="submit" span class="signupfb" value="SIGN UP WITH FACEBOOK" style="color: white"></a>
+  
+
 	<div class="Text1">NO MORE SECOND GUESSING</div>
 	<div class="Text2"> Need a better and more realistic sense of the college you’re visiting? Or simply want to spend a night at your dream college but don’t know any students who attend the school? </div>
 
@@ -35,9 +70,6 @@
 	<span class="newbg"></span>
 	<span class="costswhite"><img src="{% static "images/ic_ourcosts.png" %}" alt=""></span>
 	<span class="allcostsmain"><img src="{% static "images/all_costs_no_background.png" %}" alt=""></span>
-	<span class="book1"><a href="/become"><img src="{% static "images/ic_bookyourvisit.png" %}" alt=""></span>
-		<span class="book2"><a href="/become"><img src="{% static "images/ic_bookyourvisit.png" %}" alt=""></span>
-		<span class="book3"><a href="/become"><img src="{% static "images/ic_bookyourvisit.png" %}" alt=""></span>
 	<span class="mostvisited"><img src="{% static "images/ic_mostvisited.png" %}" alt=""></span>
 	<span class="georgia"><img src="{% static "images/ic_georgia.png" %}" alt=""></span>
 	<span class="rutgers"><img src="{% static "images/ic_rutgers.png" %}" alt=""></span>

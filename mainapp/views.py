@@ -20,8 +20,13 @@ class Becomeaguide(TemplateView):
 	template_name = "become.html"
 
 class Profile(TemplateView):
-	template_name = "profile.html"
+	template_name = "login.html"
 
 class Policy(TemplateView):
 	template_name = "policy.html"
 
+class Visitor(TemplateView):
+	template_name = "visitordash.html"
+
+class PendingVisits (TemplateView):
+	template_name = "pending.html"

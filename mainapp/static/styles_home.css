@@ -152,9 +152,10 @@ box-shadow: 0px 0px 10px 1px rgba(90, 89, 89, 0.3);
 
 }
 .signtext{
+	white-space: nowrap;
 	position: absolute;
 top: 115px;
-left: 1092px;
+left: 1072px;
 height: 20px;
 width: 133px;
 font-family: 'National';
@@ -621,6 +622,173 @@ text-align: center;
 letter-spacing: 0.02em;
 
 }
+
+/* SIGNUP SHEET */
+.firstname{
+	position: absolute;
+top: 168px;
+left: 1025px;
+height: 37px;
+width: 131px;
+border: 1px solid rgba(74, 74, 74, 1);
+border-radius: 4px;
+
+}
+
+.lastname{
+	position: absolute;
+top: 168px;
+left: 1163px;
+height: 37px;
+width: 131px;
+border: 1px solid rgba(74, 74, 74, 1);
+border-radius: 4px;
+
+}
+
+.email{
+	position: absolute;
+top: 216px;
+left: 1025px;
+height: 37px;
+width: 268px;
+border: 1px solid rgba(74, 74, 74, 1);
+border-radius: 4px;
+
+}
+
+.mobile{
+	position: absolute;
+top: 264px;
+left: 1025px;
+height: 37px;
+width: 268px;
+border: 1px solid rgba(74, 74, 74, 1);
+border-radius: 4px;
+
+}
+
+.password{
+	position: absolute;
+top: 312px;
+left: 1025px;
+height: 37px;
+width: 268px;
+border: 1px solid rgba(74, 74, 74, 1);
+border-radius: 4px;
+
+}
+
+.bdaytext{
+	position: absolute;
+top: 366px;
+left: 1025px;
+height: 17px;
+width: 133px;
+font-family: 'National';
+font-size: 14px;
+font-weight: 500;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+
+}
+
+.bday{
+	position: absolute;
+	top: 390px;
+left: 1025px;
+height: 37px;
+width: 268px;
+border: 1px solid rgba(74, 74, 74, 1);
+border-radius: 4px;
+}
+
+.female{
+	position: absolute;
+top: 441px;
+left: 1050px;
+height: 17px;
+width: 76px;
+font-family: 'National';
+font-size: 14px;
+font-weight: 300;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.06em;
+
+}
+
+.male{
+	position: absolute;
+top: 441px;
+left: 1050px;
+height: 17px;
+width: 76px;
+font-family: 'National';
+font-size: 14px;
+font-weight: 300;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.06em;
+
+}
+
+.signupbtn{
+	position: absolute;
+top: 481px;
+left: 1026px;
+height: 36px;
+width: 268px;
+background-color: rgba(113, 145, 215, 1);
+border-radius: 6px;
+
+}
+
+.or{
+	position: absolute;
+top: 522px;
+left: 1123px;
+height: 17px;
+width: 76px;
+font-family: 'National';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: center;
+letter-spacing: 0.06em;
+
+}
+
+.contfb{
+	white-space: nowrap;
+	position: absolute;
+top: 552px;
+left: 1059px;
+height: 16px;
+width: 182px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+
+}
+
+.signupfb{
+	position: absolute;
+top: 542px;
+left: 1026px;
+height: 36px;
+width: 268px;
+background-color: rgba(56, 89, 159, 1);
+border-radius: 6px;
+
+}
+
+
+
+
+
+
 
 
 

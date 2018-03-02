@@ -1,0 +1,353 @@
+a:link {
+	color: rgba(255, 255, 255, 1);
+	text-decoration: none;
+}
+
+a:visited{
+	color: rgba(90, 89, 89, 1);
+	text-decoration: none;
+}
+.uni{
+	white-space: nowrap;
+	position: absolute;
+top: 29px;
+left: 32px;
+height: 25px;
+width: 298px;
+/*Text styles for UNIVERSITY */
+font-family: 'Akrobat';
+font-size: 15px;
+color: rgba(113, 145, 215, 1);
+text-align: left;
+letter-spacing: 0.1em;
+line-height: 25px;
+overflow: hidden;
+
+}
+
+
+
+.dash{
+	white-space: nowrap;
+	position: absolute;
+top: 64px;
+left: 183px;
+height: 41px;
+width: 176px;
+font-family: 'National';
+font-size: 15px;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.03em;
+line-height: 50px;
+text-decoration: none;
+}
+.rectnew{
+	position: relative;
+top: 0px;
+left: 0px;
+height: 50px;
+width: 1440px;
+background-color: rgba(255, 255, 255, 1);
+box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, 0.13);
+
+}
+
+.visname{
+	position: absolute;
+top: 380px;
+left: 201px;
+height: 30px;
+width: 159px;
+font-family: 'San Francisco Text';
+font-size: 25px;
+font-weight: 500;
+color: rgba(0, 0, 0, 1);
+text-align: center;
+
+}
+.pend{
+	white-space: nowrap;
+	position: absolute;
+top: 64px;
+left: 418px;
+height: 41px;
+width: 166px;
+font-family: 'National';
+font-size: 15px;
+font-weight: 300;
+color: rgba(90, 89, 89, 1);
+text-align: left;
+letter-spacing: 0.03em;
+line-height: 50px;
+text-decoration: none;
+}
+.upcoming{
+	white-space: nowrap;
+	position: absolute;
+top: 64px;
+left: 603px;
+height: 41px;
+width: 154px;
+font-family: 'National';
+font-size: 15px;
+font-weight: 300;
+color: rgba(90, 89, 89, 1);
+text-align: left;
+letter-spacing: 0.03em;
+line-height: 50px;
+
+}
+
+
+/* FOR BOTTOM PART */
+.rectangle{
+	position: absolute;
+top: 3217px;
+bottom: 0;
+left: 0px;
+height: 351px;
+width: 1440px;
+background-color: rgba(33, 40, 48, 1);
+
+}
+
+.signup{
+	position: absolute;
+top: 3359px;
+bottom: 0;
+left: 119px;
+height: 14px;
+width: 90px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.moreinfo{
+	white-space: nowrap;
+	position: absolute;
+top: 3359px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.faqblock{
+	position: absolute;
+top: 3412px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.guideblock{
+	position: absolute;
+top: 3412px;
+left: 119px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.policyblock{
+	position: absolute;
+top: 3359px;
+left: 359px;
+height: 14px;
+width: 86px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+font-weight: 600;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.guidepolicy{
+	white-space: nowrap;
+	position: absolute;
+top: 3389px;
+left: 359px;
+height: 14px;
+width: 107px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.insurance{
+	white-space: nowrap;
+	position: absolute;
+top: 3412px;
+left: 359px;
+height: 14px;
+width: 159px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.joinus{
+	white-space: nowrap;
+	position: absolute;
+top: 3358px;
+left: 676px;
+height: 15px;
+width: 84px;
+font-family: 'Roboto';
+font-size: 13px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+.smallrect{
+	position: absolute;
+top: 3393px;
+left: 920px;
+height: 33px;
+width: 251px;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 8px;
+
+}
+.ques{
+	white-space: nowrap;
+	position: absolute;
+top: 3358px;
+left: 966px;
+height: 15px;
+width: 159px;
+font-family: 'Roboto';
+font-size: 13px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+
+.visitblock{
+	position: absolute;
+top: 3389px;
+left: 119px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+.parentsblock{
+	position: absolute;
+top: 3389px;
+left: 243px;
+height: 14px;
+width: 79px;
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: left;
+letter-spacing: 0.12em;
+
+}
+
+.fb{
+	position: absolute;
+top: 3389px;
+left: 637px;
+height: 31px;
+width: 31px;
+
+}
+
+.twit{
+	position: absolute;
+top: 3389px;
+left: 680px;
+height: 31px;
+width: 31px;
+
+}
+
+.gplus{
+	position: absolute;
+top: 3389px;
+left: 722px;
+height: 31px;
+width: 31px;
+
+}
+
+.insta{
+	position: absolute;
+top: 3389px;
+left: 764px;
+height: 31px;
+width: 31px;
+
+}
+
+.boxcont{
+	position: absolute;
+top: 3393px;
+left: 920px;
+height: 33px;
+width: 251px;
+background-color: rgba(255, 255, 255, 0.3);
+border-radius: 8px;
+
+}
+.contact{
+	position: absolute;
+top: 3403px;
+left: 924px;
+height: 13px;
+width: 242px;
+font-family: 'Roboto';
+font-size: 11px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
+.copyright{
+	position: absolute;
+top: 3544px;
+left: 484px;
+height: 14px;
+width: 459px;
+font-family: 'Roboto';
+font-size: 12px;
+color: rgba(255, 255, 255, 1);
+text-align: center;
+letter-spacing: 0.12em;
+
+}
