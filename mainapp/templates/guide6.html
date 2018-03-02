@@ -11,24 +11,26 @@
 	<span class="bookvisit"><a href="/">BACK TO HOME</span></a>
   	<span class="logoutbtn"><a href="/" style="color: rgba(74, 74, 74, 1)">LOG OUT</span></a>
   	<span class="welcome"> Welcome, you’re just steps away from becoming a guide! </span>
-	{% endblock %} </div>
-
-
+	{% endblock %} 
+</div>
 	
 	<span class="step1"><img src="{% static "images/ic_step1.png" %}" alt=""></span>
-	<span class="guideinfo">TRANSCRIPT UPLOAD</span>
-	<span class="ic_1_5"><img src="{% static "images/ic_5_6.png" %}" alt=""></span>
+	<span class="guideinfo">BACKGROUND CHECK</span>
+	<span class="ic_1_5"><img src="{% static "images/ic_6_6.png" %}" alt=""></span>
 
-	<span class="policytypes">  Upload your most recent available university transcript (unofficial transcripts are perfectly fine). Make sure your GPA, name, and university name are all clearly visible.  </span>
 
-	
+	<span class="checkrtext">   Yooni (the “Company”) has engaged Checkr, Inc. to obtain a consumer report and/or investigate consumer report for employment purposes. Checkr Inc. will provie a background investigation as a pre-condition of your engagement with the Company and in compliance with federal and state employmnt laws. If you have any questions related to the screening process, please contact us <a href="https://www.applicant.checkr.com" style="color: blue">here. </span></a>
+		
+		<input type="text" span class="fnamecheckr" id="fnamecheckr" placeholder="First Name">
+		<input type="text" span class="mnamecheckr" id="mnamecheckr" name="city" placeholder="Middle Name">
+		<input type="text" span class="lnamecheckr" id="lnamecheckr" name="postal" placeholder="Last Name">
+		<input type="text" span class="zipcode" id="zip" placeholder="Zipcode">
 
-	<label class="custom-file-upload">
-    <input type="file"/>
-    <i class="fa fa-cloud-upload"></i> Upload Transcript
-</label>
+		<span class="summaryrights">A SUMMARY OF YOUR RIGHTS UNDER THE FAIR CREDIT REPORTING ACT</span>
 
-<span class="next4"><a href="/guide6"><img src="{% static "images/ic_nextnew.png" %}" alt=""></span></a>
+	<span class="gotostep2"><a href="/guide7"><img src="{% static "images/ic_step2.png" %}" alt=""></span></a>
+
+
 
 <div id="footer">
 		{% block footer %}

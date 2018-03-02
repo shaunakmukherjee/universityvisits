@@ -11,24 +11,30 @@
 	<span class="bookvisit"><a href="/">BACK TO HOME</span></a>
   	<span class="logoutbtn"><a href="/" style="color: rgba(74, 74, 74, 1)">LOG OUT</span></a>
   	<span class="welcome"> Welcome, you’re just steps away from becoming a guide! </span>
-	{% endblock %} </div>
+	{% endblock %} 
+</div>
+	<span class="step1"><img src="{% static "images/ic_mainstep2.png" %}" alt=""></span>
+	<span class="guideinfo">CHOOSE GUIDE TYPE</span>
+	<span class="chooseguidetype">*We have two different types of guide. You must choose <strong>ONE!</strong> </span>
+	<span class="guidetype"><img src="{% static "images/ic_typeofguide.png" %}" alt=""></span>
 
+	<form action="">
+	<div class="guidechoose">
+    <input type="radio" id="day" value="day">
+    <label for="day">Day Guide</label>
 
-	
-	<span class="step1"><img src="{% static "images/ic_step1.png" %}" alt=""></span>
-	<span class="guideinfo">TRANSCRIPT UPLOAD</span>
-	<span class="ic_1_5"><img src="{% static "images/ic_5_6.png" %}" alt=""></span>
+    <input type="radio" id="night" value="night">
+    <label for="night" checked>Overnight Guide</label>
+  	</div>
+	</form>
 
-	<span class="policytypes">  Upload your most recent available university transcript (unofficial transcripts are perfectly fine). Make sure your GPA, name, and university name are all clearly visible.  </span>
+	<span class="tidyup"><strong>Tidy up a little </strong><br> <br>
+For overnight & full weekend visits, make sure your off-campus housing unit is cleaned up a bit. No need for luxury. Just make sure it’s not a mess!
+<br>
+Since your visitors stay overnight with you in your off-campus housing for overnight &amp; full weekend visits, you need to supply your visitors with makeshift sleeping accommodations. These are college sleeping accommodations and are meant to mirror the informal and casual atmosphere of college life. So simply couches, sleeping bags, and makeshift beds are perfectly fine! Get some pillows and blankets too! You also need essentials for your overnight visitors – soap, shampoo, towels, toilet paper. Always keep these handy for your visitors! </span>
 
-	
+<span class="gotoprofile"><img src="{% static "images/ic_gotoprofile.png" %}" alt=""></span></a>
 
-	<label class="custom-file-upload">
-    <input type="file"/>
-    <i class="fa fa-cloud-upload"></i> Upload Transcript
-</label>
-
-<span class="next4"><a href="/guide6"><img src="{% static "images/ic_nextnew.png" %}" alt=""></span></a>
 
 <div id="footer">
 		{% block footer %}

@@ -204,6 +204,7 @@ width: 199px;
 input[type='file'] {
   color: transparent;
   opacity: 0;
+  display: none;
 }
 
 .photo{
@@ -722,6 +723,196 @@ width: 133px;
 }
 
 
+.custom-file-upload {
+	position:absolute;
+	top: 403px;
+	left: 286px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.gotostep2{
+	position: absolute;
+top: 1096px;
+left: 950px;
+height: 44px;
+width: 242px;
+
+}
+.rectcheckr{
+	position: absolute;
+top: 652px;
+left: 248px;
+height: 395px;
+width: 944px;
+background-color: rgba(255, 255, 255, 1);
+border-radius: 0px 0px 8px 8px;
+box-shadow: 0px 2px 6px 0px rgba(209, 209, 209, 1);
+
+
+}
+.summaryrights{
+	white-space: nowrap;
+	position: absolute;
+top: 665px;
+left: 275px;
+height: 24px;
+width: 678px;
+font-family: 'National';
+font-size: 20px;
+font-weight: bold;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+.fnamecheckr{
+	position: absolute;
+top: 465px;
+left: 418px;
+height: 30px;
+width: 180px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+
+.lnamecheckr{
+	position: absolute;
+top: 465px;
+left: 799px;
+height: 30px;
+width: 180px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+
+}
+
+.mnamecheckr{position: absolute;
+top: 465px;
+left: 609px;
+height: 30px;
+width: 180px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+
+}
+
+.zipcode{
+position: absolute;
+top: 518px;
+left: 418px;
+height: 30px;
+width: 180px;
+border: 1px solid rgba(151, 151, 151, 1);
+border-radius: 3px;
+
+}
+
+.checkrtext{
+	position: absolute;
+top: 345px;
+left: 344px;
+height: 72px;
+width: 752px;
+font-family: 'San Francisco Text';
+font-size: 14px;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.04em;
+line-height: 18px;
+
+}
+
+
+.chooseguidetype{
+	white-space: nowrap;
+	position: absolute;
+top: 339px;
+left: 415px;
+height: 19px;
+width: 560px;
+/*Text styles for * */
+font-family: 'San Francisco Text';
+font-size: 16px;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.03em;
+
+}
+
+
+.guidetype{
+	position: absolute;
+top: 391px;
+left: 431px;
+}
+
+
+.guidechoose{
+	position: absolute;
+	top: 651px;
+	left: 451px;
+}
+
+
+.tidyup{
+	position: absolute;
+top: 749px;
+left: 431px;
+height: 218px;
+width: 661px;
+/*Text styles for Tidy up a  */
+font-family: 'San Francisco Text';
+font-size: 12px;
+color: rgba(0, 0, 0, 1);
+text-align: left;
+letter-spacing: 0.04em;
+line-height: 29px;
+
+}
+
+
+.gostep3{
+	position: absolute;
+top: 1094px;
+left: 950px;
+height: 44px;
+width: 242px;
+
+}
+
+
+.finalcall{
+	position: absolute;
+top: 366px;
+left: 423px;
+height: 105px;
+width: 661px;
+font-family: 'San Francisco Text';
+font-size: 13px;
+font-weight: 500;
+color: rgba(74, 74, 74, 1);
+text-align: left;
+letter-spacing: 0.04em;
+line-height: 21px;
+
+}
+
+
+.gotoprofile{
+	position: absolute;
+top: 621px;
+left: 983px;
+height: 44px;
+width: 209px;
+
+}
 /* FOR BOTTOM PART */
 .rectangle{
 	position: absolute;

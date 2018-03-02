@@ -18,6 +18,8 @@ urlpatterns = [
 	url(r'^guide4$', views.Guide4.as_view()),
 	url(r'^guide5$', views.Guide5.as_view()),
 	url(r'^guide6$', views.Guide6.as_view()),
+	url(r'^guide7$', views.Guide7.as_view()),
+	url(r'^guide8$', views.Guide8.as_view()),
 	url(r'^history$',views.History.as_view()),
 	url(r'^help$',views.Help.as_view()),
 ]
