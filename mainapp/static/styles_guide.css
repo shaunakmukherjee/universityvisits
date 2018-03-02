@@ -204,7 +204,6 @@ width: 199px;
 input[type='file'] {
   color: transparent;
   opacity: 0;
-  display: none;
 }
 
 .photo{

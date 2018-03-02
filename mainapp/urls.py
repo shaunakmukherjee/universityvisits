@@ -28,4 +28,5 @@ urlpatterns = [
 	url(r'^guidedetails$', views.Details.as_view()),
 	url(r'^bookconf1$', views.BookConf1.as_view()),
 	url(r'^bookconf2$', views.BookConf2.as_view()),
+	url(r'^final$', views.Final.as_view()),
 ]

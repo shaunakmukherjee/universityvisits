@@ -1,9 +1,9 @@
 a:link {
-	color: rgba(255, 255, 255, 1);
+	color: white;
 	text-decoration: none;
 }
 a:visited{
-	color: rgba(255, 255, 255, 1);
+	color: red;
 	text-decoration: none;
 }
 .miamiguides{
@@ -180,7 +180,7 @@ line-height: 29px;
 
 }
 
-.uniname{
+.collegename{
 	white-space: nowrap;
 	position: absolute;
 top: 536px;
@@ -624,19 +624,24 @@ line-height: 21px;
 }
 
 
-.congrats{
+.notsure{
+	white-space: nowrap;
 	position: absolute;
 top: 366px;
 left: 253px;
 height: 24px;
 width: 354px;
 font-family: 'San Francisco Text';
-font-size: 24px;
+font-size: 14px;
 color: prussianblue;
 text-align: left;
 }
 
-
+.finalbook{
+	position: absolute;
+	top: 426px;
+	left: 253px;
+}
 
 .nextbook{
 	position: absolute;

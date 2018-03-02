@@ -71,3 +71,6 @@ class BookConf1(TemplateView):
 	template_name = "bookconf1.html"
 class GuideHome(TemplateView):
 	template_name = "guidedash.html"
+
+class Final(TemplateView):
+	template_name = "congrats.html"
